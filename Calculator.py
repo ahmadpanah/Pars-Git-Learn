@@ -27,3 +27,25 @@ if choice == "a" or choice == "A":
     a = int(input("input First Number: "))
     b = int(input("input Second Number: "))
     add(a,b)
+
+elif choice == "b" or choice == "B":
+    print ("Substract")
+    a = int(input("input First Number: "))
+    b = int(input("input Second Number: "))
+    sub(a,b)
+
+elif choice == "c" or choice == "C":
+    print ("Multiply")
+    a = int(input("input First Number: "))
+    b = int(input("input Second Number: "))
+    mul(a,b)
+
+elif choice == "d" or choice == "D":
+    print ("Division")
+    a = int(input("input First Number: "))
+    b = int(input("input Second Number: "))
+    div(a,b)
+
+elif choice == "e" or choice == "E":
+    print ("Good Bye!")
+    quit()
